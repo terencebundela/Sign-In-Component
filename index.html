@@ -16,38 +16,62 @@
   <body style="background-color: #e9eae9;">
     <div class="box container-fluid shadow-lg w-75">
         <div class="row">
-            <div class="col-md-6" style="background-color: #e9eae9;">
-                <div class="card border-0 container-fluid rounded-0" style="width:28rem; height: 30rem; background-color: #e9eae9;">
-                    <div class="card-header border-none text-center" style="font-size: 2rem; background-color: #e9eae9;">Sign In</div>
-                    <div class="card-body">
-                        <p class="card-text">
-                            <form class="d-grid">
-                                <div class=" ">
+            <div class="col-md-6 col-xs-12 col-sm-12" style="background-color: #e9eae9;">
+                <div class="container d-flex align-items-center justify-content-center"  style="width:28rem; height: 30rem; background-color: #e9eae9;">
+                    <div class="card p-4 border-0" style="background-color: #e9eae9;">
+                      <h2 class="text-center mb-4">Sign In</h2>
+                      <form>
+                        <div class="mb-3">
+                          <label for="username" class="form-label">Username</label>
+                          <input type="text" class="form-control" id="username">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                          <label for="password" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="password">
+                          <!-- <button class="btn btn-outline-secondary" type="button" id="password-toggle">
+                            <i class="eyeView fa fa-solid fa-eye-slash"></i>
+                          </button> -->
+                        </div>
+                        <button type="submit" class="btn rounded-4 w-50" style="background-color: #395a93; color: #e9eae9;">Submit</button>
+                      </form>
+                    </div>
+                  </div>
+                  
+                <!-- <div class="border-0 container-fluid rounded-0" style="width:28rem; height: 30rem; background-color: #e9eae9;">
+                    <div class="container header border-none text-center" style="font-size: 2rem; background-color: #e9eae9;">Sign In</div>
+                    <div class="col-xs-12 col-xxl-12">
+                        <p class="text">
+                            <form class="d-grid border border-dark">
+                                <div class="container text-center">
                                     <label class="w-50" for="username">User Name</label> <br>
-                                    <input class="mt-2 w-50 border-0 rounded-4" type="text" placeholder="" value="" id="username" style="height: 2.5rem;"><br>
+                                    <input class="w-50 border-0 rounded-4" type="text" placeholder="" value="" id="username" style="height: 2.5rem;"><br>
                                 </div>
 
-                                <div class="  " >
+                                <div class="container text-center" >
                                     <label class="w-25 mt-4" for="email">Email</label> <br>
-                                    <input class="mt-2 w-50 border-0 rounded-4" type="email" placeholder="" value="" id="emal" style="height: 2.5rem;"><br>
+                                    <input class="w-50 border-0 rounded-4" type="email" placeholder="" value="" id="emal" style="height: 2.5rem;"><br>
                                 </div>
 
-                                <div class=" ">
+                                <div class="container text-center">
                                     <label class="w-25 mt-4" for="password">Password</label> <br>
                                     <input class="mt-2 w-50 border-0 rounded-4" type="password" placeholder="" value="" id="password" style="height: 2.5rem;">
-                                    <!-- <i class=" eyeView fa-solid fa-eye"></i> -->
-                                    <!-- <i class="eyeView fa-solid fa-eye-slash"></i> -->
+                                    <i class=" eyeView fa-solid fa-eye"></i>
+                                    <i class="eyeView fa-solid fa-eye-slash"></i>
                                     <br>
                                 </div>
 
-                                <button type="button" class="submit w-75 btn btn-block btn-dark rounded-4 mt-5">Submit</button>
+                                <button type="button" class="text-center submit btn btn-block btn-dark rounded-4 mt-5">Submit</button>
                                 
                             </form>
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
-            <div class="col-md-6" 
+            <div class="col-md-6 col-xs-12" 
             style="background-image:url('https://images.pexels.com/photos/5908245/pexels-photo-5908245.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
             color: #395a93;
             background-size: cover;
