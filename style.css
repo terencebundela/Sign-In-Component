@@ -13,3 +13,9 @@ label {
     text-align: left;
     display: block;
   }
+
+  .eyeView {
+    position: absolute;
+    bottom: 19%;
+    right: 10% 
+  }
