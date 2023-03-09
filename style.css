@@ -1,0 +1,31 @@
+
+.box {
+    position: relative;
+    top: 10rem;
+}
+
+form > label, input {
+    position: relative;
+    left: 25%;
+}
+
+label {
+    position: relative;
+    left: 26%;
+}
+
+.showpwd {
+    position: relative;
+
+}
+
+.eyeView {
+    position: relative;
+    left: 16%;
+    font-size: 14px;
+}
+
+.submit {
+    position: relative;
+    left: 14%;
+}
